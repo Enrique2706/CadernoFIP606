@@ -1,8 +1,11 @@
 ---
 title: "cofee rust"
-autor: José Enrique Espitia López
+autor: "José Enrique Espitia López"
 date: 21/05/2025
-format: html
+format: 
+  html:
+    toc: true
+    theme: default
 warning: false
 message: false
 ---
@@ -22,7 +25,7 @@ cr <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1bq2N19DcZdtax2fQW9OHSG
 
 # visualiza os dados
 
-usaremos a função datatable()
+Usaremos a função datatable()
 
 ```{r}
 #install.packages("DT") #para tabela interativa

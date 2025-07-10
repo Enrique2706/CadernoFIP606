@@ -1,0 +1,29 @@
+{
+    "id": "FA42B87F",
+    "path": "~/GitHub/CadernoFIP606/Introdução_ao_R.qmd",
+    "project_path": "Introdução_ao_R.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1752109549429.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "68:5.599999904632568"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1752109587,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1752109587097,
+    "read_only": false,
+    "read_only_alternatives": []
+}

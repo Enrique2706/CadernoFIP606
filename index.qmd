@@ -1,5 +1,5 @@
 ---
-title: "cofee rust"
+title: "Cofee rust"
 autor: "José Enrique Espitia López"
 date: 21/05/2025
 format: 
@@ -16,16 +16,16 @@ O conjunto de dados será o da ferrugem do café na Etiopia que esta no arquivo 
 
 # Importar os dados
 
-usaremos a função `gsheet2tbl()` do pacote \[gsheet\] para carregar os dados no ambiente
+Usaremos a função `gsheet2tbl()` do pacote **\[gsheet\]** para carregar os dados no ambiente
 
 ```{r}
 library(gsheet)
 cr <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1bq2N19DcZdtax2fQW9OHSGMR0X2__Z9T/edit?gid=1871397229#gid=1871397229")
 ```
 
-# visualiza os dados
+# Visualiza os dados
 
-Usaremos a função datatable()
+Usaremos a função `datatable()`
 
 ```{r}
 #install.packages("DT") #para tabela interativa
@@ -69,5 +69,3 @@ ggplot()+
 
 ggsave("mapa_ethiopia.png", bg = "white", width = 10)
 ```
-
-,

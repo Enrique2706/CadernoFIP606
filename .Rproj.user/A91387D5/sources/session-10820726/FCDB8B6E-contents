@@ -1,0 +1,73 @@
+---
+title: "Importação de dados"
+format: html
+editor: visual
+---
+
+# Leitura dos arquivos
+
+-   Baixar o pacote que ler dados em arquivos
+
+    ```{r}
+    library(tidyverse)
+    ```
+
+## Vamos importar um conjunto de dados que esta disponivel no R.
+
+```{r}
+dados<-Orange 
+
+Orange
+
+plot(dados$circumference)
+```
+
+```{r}
+circ<-dados$circumference 
+circ2<-exp(circ) 
+circ2 
+circ3=log(circ2)   
+## adicionar uma variavel nova nos dados originais 
+dados 
+dados$logcirc<-log(dados$circumference) 
+dados  
+##desagregar conjunto de dados em variaveis independentes 
+attach(dados) 
+circumference
+```
+
+## Como instalar pacotes?
+
+```{r}
+library(agricolae) 
+library(tidyverse) 
+dates <- c(14,21,28) # days 
+severity <- c(40,80,90) 
+severity 
+audpc(severity,dates)  
+data(corn) 
+corn 
+str(corn)
+```
+
+```{r}
+library(tidyverse) 
+dates <- c(7,14,21,28,35,42) # days 
+severity <- c(0.1,5,10,35,50,60) 
+data_curva<-data.frame(dates,severity) 
+data_curva 
+```
+
+## Meu primeiro plot
+
+```{r}
+data_curva |>   mutate(severity2 = c(1,10,35,58,70,79)) |>    
+  ggplot(aes(dates,severity2))+   
+  geom_col()+   
+  geom_line(linewidth = 2,color="black")+   
+  geom_point(size = 5)+   
+  theme_classic(base_size = 14)+   
+  labs(x="Dia após o plantio",        y="severidade(%)")+   
+  scale_y_continuous(limits = c(0,100),n.breaks = 10)+   
+  scale_x_continuous(n.breaks = 8)
+```

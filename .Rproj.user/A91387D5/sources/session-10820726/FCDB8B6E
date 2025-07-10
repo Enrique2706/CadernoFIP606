@@ -3,7 +3,7 @@
     "path": "~/GitHub/CadernoFIP606/Importação de dados.qmd",
     "project_path": "Importação de dados.qmd",
     "type": "quarto_markdown",
-    "hash": "1498786109",
+    "hash": "1949161477",
     "contents": "",
     "dirty": false,
     "created": 1752110222776.0,
@@ -17,16 +17,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "33,0",
+        "cursorPosition": "25,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "5:0"
+        "rmdVisualModeLocation": "352:1056.800048828125"
     },
     "folds": "",
-    "lastKnownWriteTime": 1752111328,
+    "lastKnownWriteTime": 1752111772,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1752111328804,
+    "last_content_update": 1752111772127,
     "read_only": false,
     "read_only_alternatives": []
 }
